@@ -1,0 +1,200 @@
+/* Basic CSS Reset */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+  color: hsl(0, 0%, 55%);
+
+}
+
+header {
+  /* background-image: url(../assets/images/image-hero.jpg); */
+  background-image: url(/assets/images/image-hero.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 3.25rem 2.25rem;
+  min-height: 600px;
+}
+
+.hero {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+nav ul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.introduction-wrapper {
+  margin-top: 6.5rem;
+  width: 50%;
+  border: 2px solid;
+  padding: 2.4rem 3.2rem;
+}
+
+.introduction-wrapper h1 {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  line-height: 1.3;
+}
+
+main {
+  max-width: 1400px;
+   margin: auto; 
+  /* margin: 2.75rem; */
+  padding: 7rem 2.25rem 0rem 3rem;
+  
+}
+
+.about-section {
+  display: flex;
+  width: 100%;
+  margin-bottom: 7rem;
+}
+
+.about-section .about-image-wrapper {
+  width: 50%;
+}
+
+.about-image-wrapper img {
+  width: 100%;
+}
+
+.about-section .about-content-wrapper {
+  width: 50%;
+  padding: 6rem;
+  /* margin-top: 12rem;
+  margin-left: -8rem; */
+  background-color: white;
+  position: relative;
+  left: -10rem;
+  top: 10rem;
+}
+
+.about-content-wrapper h2 {
+  color: hsl(0, 0%, 0%);
+  font-size: 2.75rem;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.about-content-wrapper p {
+  line-height: 1.6;
+}
+
+.creations-section-header {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.creations-section-header .all-creations-link {
+  display: block;
+  padding: 1rem 3.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  border: 1px solid;
+  position: relative;
+}
+
+.creations-images-wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+}
+figcaption {
+  position: relative;
+  bottom: 120px;
+  margin-left: 2.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+.Second {
+  margin-top: 0;
+  padding: 0px;
+}
+
+footer {
+  width: 100%;
+  height: 115px;
+  background-color: black;
+}
+
+.follow-up-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.follow-up-medias {
+  padding:  1.5rem;
+  justify-content: space-around;
+
+}
+
+.loopstudio-logo { 
+  padding:  1.5rem 
+}
+
+.follow-up-medias {
+  follow-up-medias
+}
+
+.secondary-nav-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.secondary-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.secondary-nav ul li {
+  margin: 0 15px;
+}
+.secondary-nav ul a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.copy-right {
+  margin-left: 30rem;
+  margin-right: 10px;
+  display: inline-block;
+}
